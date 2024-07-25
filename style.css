@@ -282,11 +282,14 @@ body {
   padding: 0.8rem 2.5rem;
   background: rgb(2, 100, 100);
   border-radius: 1rem;
+  border: none;
+  outline: none;
 }
 
 #growth .visitBtn a{
   text-decoration: none;
   color: whitesmoke;
+  
 }
 
 
@@ -445,6 +448,11 @@ body {
     font-size: 1rem;
     margin-bottom: 2rem;
 }
+
+#growth .visitBtn{
+ margin-bottom: 1rem;
+}
+
 #growth > img {
   width: 100%;
   object-fit: cover;
