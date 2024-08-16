@@ -6,13 +6,10 @@ menuBar.addEventListener("click", ()=>{
     if(menuBar){
         navBar.classList.add('active');
     }
-    // navBar.classList.toggle('active');
 })
 
 closeBar.addEventListener("click", ()=>{
     if(closeBar){
         navBar.classList.remove('active');
     }
-
-    // navBar.classList.toggle('active');
 })
