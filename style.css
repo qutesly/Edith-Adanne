@@ -320,6 +320,10 @@ body {
   padding: 1.5rem;
 }
 
+.project-card1 p {
+  line-height: 1.4rem;
+}
+
 #skills {
   max-width: 100%;
   margin: 0 auto;
@@ -340,8 +344,8 @@ body {
   }
 
   #projects {
-    margin-top: 3rem;
-}
+    height: 100%;
+  }
 
   #projects .projects-card {
     width: 100%;
@@ -356,7 +360,7 @@ body {
 
   #contacts {
     width: 60%;
-    height: 80vh;
+    height: 100%;
     margin-top: 3rem;
   }
 
@@ -379,6 +383,12 @@ body {
     color: rgb(172, 166, 166);
     line-height: 1.2;
   }
+
+  #growth {
+    max-width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
 
   #growth > div {
     margin-top: 5rem;
@@ -449,7 +459,6 @@ body {
   }
 
   #hero-page .heroImg > img {
-    border: 1px solid red;
     width: 100%;
     height: 100%;
   }
@@ -459,8 +468,8 @@ body {
   }
 
   #projects {
+    height: 100%;
     padding: 1rem;
-    margin-top: 5rem;
 
   }
 
@@ -493,7 +502,7 @@ body {
 
   #contacts {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 0 1rem 0 1rem;
   }
 
